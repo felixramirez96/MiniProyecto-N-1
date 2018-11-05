@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:id="@+id/choose_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/seleccione_su_producto"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/choose_product"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/condondescrip"
+                android:layout_width="match_parent"
+                android:layout_height="186dp"
+                android:baselineAligned="false"
+                android:drawableStart="@drawable/condones_durex"
+                android:drawableLeft="@drawable/condones_durex"
+                android:padding="10dp"
+                android:text="@string/condones"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity"/>
+
+            <TextView
+                android:id="@+id/lubrixdescrip"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:drawableStart="@drawable/lubricantes_durex"
+                android:drawableLeft="@drawable/lubricantes_durex"
+                android:padding="5dp"
+                android:text="@string/lubricante_durex_ideal_para_masajes"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity1"/>
+
+            <TextView
+                android:id="@+id/lovecuff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/love_cuff"
+                android:drawableLeft="@drawable/love_cuff"
+                android:padding="2dp"
+                android:text="@string/esposas_de_jueguete_con_forma_de_corazon"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity2"/>
+
+            <TextView
+                android:id="@+id/lovepaddle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/love_paddle"
+                android:drawableLeft="@drawable/love_cuff"
+                android:padding="2dp"
+                android:text="@string/paleta_de_madera_forrada_en_cuero"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity3"/>
+
+            <TextView
+                android:id="@+id/tapabocas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/tapa_bocas"
+                android:drawableLeft="@drawable/tapa_bocas"
+                android:padding="2dp"
+                android:text="@string/pelota_tapa_bocas"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity4"/>
+
+            <TextView
+                android:id="@+id/candle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/scandal_candle"
+                android:drawableLeft="@drawable/scandal_candle"
+                android:padding="2dp"
+                android:text="@string/velas_aromaticas_con_feromonas"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity5"/>
+
+            <TextView
+                android:id="@+id/book1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/kama_sutra_book_1"
+                android:drawableLeft="@drawable/kama_sutra_book_1"
+                android:padding="2dp"
+                android:text="@string/libro_de_kamma_sutra_de_kammini_and_kirk_thomas"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity6"/>
+
+            <TextView
+                android:id="@+id/book2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/kama_sutra_book_2"
+                android:drawableLeft="@drawable/kama_sutra_book_2"
+                android:padding="2dp"
+                android:text="@string/libro_de_kamma_sutra_de_sandy_cayman"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity7"/>
+
+            <TextView
+                android:id="@+id/book3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/kama_sutra_book_3"
+                android:drawableLeft="@drawable/kama_sutra_book_3"
+                android:padding="2dp"
+                android:text="@string/libro_de_kamma_sutra_de_james_mcconnachie"
+                android:textSize="@dimen/text_heading"
+                android:onClick="launchFirstActivity8"/>
+
+        </LinearLayout>
+    </ScrollView>
+
