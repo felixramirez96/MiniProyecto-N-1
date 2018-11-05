@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MiniProyecto1</string>
+    <string name="_5gt_sexshop_c_a">5GT SEXSHOP C.A.</string>
+    <string name="productos_apartados">Productos Apartados:</string>
+    <string name="seguir_comprando">Seguir Comprando</string>
+    <string name="seleccione_su_producto">Seleccione su producto</string>
+    <string name="condones">Condones Durex con Lubricacion interna.</string>
+    <string name="lubricante_durex_masaje">Lubricante Durex ideal para masajesy usos varios</string>
+    <string name="esposas_de_juguete_para_satisfacer_fantasias">Esposas de juguete para satisfacer fantasias</string>
+    <string name="paleta_de_madera_cubierta_de_cuero">Paleta de madera cubierta de cuero</string>
+    <string name="esposas_de_juegue">Esposas de Juegue</string>
+    <string name="esposas_de_jueguete_con_forma_de_corazon">Esposas de Jueguete con forma de Corazon</string>
+    <string name="bendy_twist_anal_beads">bendy twist anal beads</string>
+    <string name="paleta_de_madera_forrada_en_cuero">Paleta de madera forrada en cuero</string>
+    <string name="pelota_tapa_bocas">Pelota Tapa Bocas</string>
+    <string name="libro_de_kamma_sutra_de_kammini_and_kirk_thomas">Libro de Kamma Sutra de Kammini and Kirk Thomas</string>
+    <string name="libro_de_kamma_sutra_de_sandy_cayman">Libro de Kamma Sutra de Sandy Cayman</string>
+    <string name="libro_de_kamma_sutra_de_james_mcconnachie">Libro de Kamma Sutra de James McConnachie</string>
+    <string name="velas_aromaticas_con_feromonas">Velas Aromaticas con Feromonas</string>
+    <string name="lubricante_durex_ideal_para_masajes">Lubricante Durex ideal para masajes</string>
+    <string name="condom_order_message">Has ordenado un Condon Durex.</string>
+    <string name="lubrix_order_message">Has ordenado un Lubricante Durex.</string>
+    <string name="lovecuff_order_message">Has ordenado un juego de esposas.</string>
+    <string name="lovepaddle_order_message">Has ordenado una Love Paddle.</string>
+    <string name="pelota_order_message">Has ordenado un Tapa Bocas.</string>
+    <string name="candle_order_message">Has ordenado una Vela Aromatizante.</string>
+    <string name="kamma1_order_message">Has ordenado el Libro de Kamma Sutra.</string>
+    <string name="kamma2_order_message">Has ordenado el Libro de Kamma Sutra.</string>
+    <string name="kamma3_order_message">Has ordenado el Libro de Kamma Sutra.</string>
+    <string name="agregar_articulo">Agregar Articulo</string>
+    <string name="text_carro">---------------</string>
+
+</resources>
